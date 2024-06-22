@@ -26,7 +26,7 @@ const MainComponent = () => {
   const [page , setPage]= useState(1)
   const navigate = useNavigate();
 
-  const API_KEY = "bb5346dbbf2d4645acb9e720696b6db1";
+  const API_KEY = "d2dec3eb596842b59e1aa17c7e6189c6";
 
   const fetchNews = async (category) => {
     try {
