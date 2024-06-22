@@ -1,0 +1,37 @@
+.parent_container {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .main_container {
+    width: 1000px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left_container {
+    flex: 1;
+    margin-top: 10px;
+  }
+  
+  .right_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .heading {
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .sub_heading {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
